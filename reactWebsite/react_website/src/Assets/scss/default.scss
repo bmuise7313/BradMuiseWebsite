@@ -1,0 +1,141 @@
+@import "_config.scss";
+header{
+  position: relative;
+  display: block;
+  width: 100%;
+  background: $black;
+  color: $white;
+  height: 90px;
+
+  .logo   {
+    position: absolute;
+    top: 50%; left: 15px;
+    @include translateY(-50%);
+
+    img {
+      height: 30%;
+      width: 30%;
+    }
+  }
+
+nav,
+nav ul,
+nav ul li{
+  margin:0;
+  padding:0;
+}
+
+
+
+  nav{
+    position: absolute;
+    top: 50%; right: 15px;
+    @include translateY(-50%);
+
+    ul li{
+      list-style-type: none;
+      display: inline-block;
+      margin-right: 20px;
+
+      &.last{
+        margin: 0;
+      }
+
+      a{
+        font-size: 19px;
+        line-height: normal;
+        color: $white;
+      }
+    }
+  }
+}
+
+body{
+  background-color: $lightBlue;
+.boxed{
+  position: relative;
+  border: 3px Solid $black;
+  width: 75%;
+  margin:auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  background-color: $white;
+
+  p{
+    padding: 10px;
+    text-align:center;
+    }
+
+    .company{
+      text-align: left;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .title{
+      text-align: left;
+
+    }
+
+    .companyImage{
+      height: 150px;
+      width: 150px;
+
+    }
+
+    .vicWestImage{
+      height: 130px;
+      width: 250px;
+
+    }
+    .companyLogo{
+      text-align: right;
+      position: absolute;
+      right: 200px;
+      top: 50px;
+    }
+
+    .reqs{
+      position:relative;
+
+    }
+    .learned{
+      text-align: left;
+    }
+
+    h1{
+      text-align: center;
+      font-weight: bold;
+    }
+}
+}
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $black;
+  color: white;
+  text-align: left;
+  padding: 5px;
+  line-height:normal;
+}
