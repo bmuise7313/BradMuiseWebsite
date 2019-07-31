@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/BradMuiseWebsite/static/css/main.291f36a4.chunk.css",
+    "main.js": "/BradMuiseWebsite/static/js/main.ed3cda46.chunk.js",
+    "main.js.map": "/BradMuiseWebsite/static/js/main.ed3cda46.chunk.js.map",
+    "runtime~main.js": "/BradMuiseWebsite/static/js/runtime~main.d4ff3331.js",
+    "runtime~main.js.map": "/BradMuiseWebsite/static/js/runtime~main.d4ff3331.js.map",
+    "static/js/2.ad1b9d8a.chunk.js": "/BradMuiseWebsite/static/js/2.ad1b9d8a.chunk.js",
+    "static/js/2.ad1b9d8a.chunk.js.map": "/BradMuiseWebsite/static/js/2.ad1b9d8a.chunk.js.map",
+    "index.html": "/BradMuiseWebsite/index.html",
+    "precache-manifest.99fc85eb1943d1c33418e93249ac0116.js": "/BradMuiseWebsite/precache-manifest.99fc85eb1943d1c33418e93249ac0116.js",
+    "service-worker.js": "/BradMuiseWebsite/service-worker.js",
+    "static/css/main.291f36a4.chunk.css.map": "/BradMuiseWebsite/static/css/main.291f36a4.chunk.css.map",
+    "static/media/Brad Muise Resume.pdf": "/BradMuiseWebsite/static/media/Brad Muise Resume.428e83a2.pdf",
+    "static/media/Talize.png": "/BradMuiseWebsite/static/media/Talize.5d93ac90.png",
+    "static/media/VicWest.png": "/BradMuiseWebsite/static/media/VicWest.e04cb9dc.png",
+    "static/media/logo.png": "/BradMuiseWebsite/static/media/logo.68fb1f85.png",
+    "static/media/sBux.png": "/BradMuiseWebsite/static/media/sBux.d08e3832.png"
+  }
+}
