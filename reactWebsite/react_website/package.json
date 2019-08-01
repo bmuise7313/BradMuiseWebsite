@@ -9,7 +9,7 @@
     "react-scripts": "3.0.1",
     "typescript": "^3.5.3"
   },
-  "homepage": "https://bmuise7313.github.io/BradMuiseWebsite",
+  "homepage": "https://bmuise7313.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
