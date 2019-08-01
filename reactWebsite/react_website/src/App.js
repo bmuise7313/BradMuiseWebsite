@@ -2,7 +2,7 @@ import React from 'react';
 import './Assets/css/default.min.css';
 
 import{
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Link
 } from 'react-router-dom';
